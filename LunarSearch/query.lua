@@ -1,4 +1,3 @@
--- List of words
 local words = {"apple", "banana", "orange", "grape", "melon", "kiwi", "peach", "banana", "orange", "grape", "melon", "kiwi", "peach"
 , "banana", "orange", "grape", "melon", "kiwi", "peach", "banana", "orange", "grape", "melon", "kiwi", "peach"
 , "banana", "orange", "grape", "melon", "kiwi", "peach", "banana", "orange", "grape", "melon", "kiwi", "peach"
@@ -151,11 +150,9 @@ local words = {"apple", "banana", "orange", "grape", "melon", "kiwi", "peach", "
 , "banana", "orange", "grape", "melon", "kiwi", "peach", "banana", "orange", "grape", "melon", "kiwi", "peach"
 }
 
--- Function to get a random word
 function getRandomWord()
     local randomIndex = math.random(#words)
     return words[randomIndex]
 end
 
--- Example usage
 print("Random Word: " .. getRandomWord())
